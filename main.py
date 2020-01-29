@@ -17,6 +17,11 @@ class pop:
 
         print(self.num_param)
          
+    def soma(self)
+
+        return self.size_pop + 10 
+
+
 
 
 if __name__ == "__main__":
