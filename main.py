@@ -23,6 +23,7 @@ if __name__ == "__main__":
    
     a = pop(size_pop= 10, num_param= 3)
     
-    #Estou inserindo uma linha nova para fazer um teste
-    #Bom dia ana como vc esta
-   a.imprimir_pop()
+
+    a.imprimir_pop()
+
+    #Bom dia eu sou muito inteligente para trabalhar com esse tipo de codigo
