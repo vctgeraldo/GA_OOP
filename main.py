@@ -26,4 +26,4 @@ if __name__ == "__main__":
 
     a.imprimir_pop()
 
-    #Bom dia eu sou muito inteligente para trabalhar com esse tipo de codigo
+   
