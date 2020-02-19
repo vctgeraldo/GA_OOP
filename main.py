@@ -1,6 +1,9 @@
-#------------------------------#
+#----------------------------------------------------------------------------#
 #ALG. GENETICO ESCRITO EM OOP
-#------------------------------#
+#Autor:Victor Coelho Geraldo
+#
+#Data: 18 de fevereiro de 2020
+#----------------------------------------------------------------------------#
 
 class pop: 
 
@@ -17,7 +20,7 @@ class pop:
 
         print(self.num_param)
          
-    def soma(self)
+    def soma(self):
 
         return self.size_pop + 10 
 
