@@ -5,33 +5,34 @@
 #Data: 18 de fevereiro de 2020
 #----------------------------------------------------------------------------#
 
-class pop: 
+class InceriValorNaLista:
 
-    def __init__(self, size_pop, num_param):
+    def __init__(self, lista, valor_adicionado):
 
-        self.size_pop  = size_pop
-        self.num_param = num_param
+        self.lista            = lista
+        self.valor_adicionado = valor_adicionado
 
-    def imprimir_pop(self):
+        print('iniciando classe...')
 
-        print(self.size_pop)
+    def ImprimirLista(self):
 
-    def imprimirt_sum(self):
+        for contador in self.lista:
 
-        print(self.num_param)
-         
-    def soma(self):
+            print(contador)
 
-        return self.size_pop + 10 
+    def AdicionarItemNaLista(self):
 
-
+        self.lista.append(self.valor_adicionado)
 
 
 if __name__ == "__main__":
    
-    a = pop(size_pop= 10, num_param= 3)
-    
+    a = InceriValorNaLista([1,2,3], 'victor')
 
-    a.imprimir_pop()
+    a.ImprimirLista()
+    print()
+    a.AdicionarItemNaLista()
+    print()
+    a.ImprimirLista()
 
    
